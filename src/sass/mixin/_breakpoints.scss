@@ -1,0 +1,30 @@
+mixin xxLargScreen{
+    @media (max-width:1400px){
+        @content;
+    }
+}
+@mixin xlgScreen{
+    @media (max-width:1200px){
+        @content;
+    }
+}
+@mixin largScreen{
+    @media (max-width:992px){
+        @content;
+    }
+}
+@mixin mdScreen{
+    @media (max-width:768.9px){
+        @content;
+    }
+}
+@mixin smScreen{
+    @media (max-width:567.9px){
+        @content;
+    }
+}
+@mixin xsScreen{
+    @media (min-width:0px){
+        @content;
+    }
+}

@@ -1,0 +1,32 @@
+/*Poppins font*/
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../fonts/poppin/Poppins-Regular.eot');/* IE9 Compat Modes */
+    src: url('../../fonts/poppin/Poppins-Regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('../../fonts/poppin/Poppins-Regular.woff2') format('woff2'),/* Modern Browsers */
+        url('../../fonts/poppin/Poppins-Regular.woff') format('woff'),/* modern Browsers */
+        url('../../fonts/poppin/Poppins-Regular.ttf') format('truetype');/* Safari, Android, iOS */
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+/*SFProDisplay font*/
+@font-face{
+    font-family: 'SFProDisplay-Bold';
+    src: url('../../fonts/SF\ Pro\ Display/.eot');/* IE9 Compat Modes */
+    src: url('../../fonts/SF\ Pro\ Display/.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('../../fonts/SF\ Pro\ Display/.woff2') format('woff2'), /* Modern Browsers */
+        url('../../fonts/SF\ Pro\ Display/.woff') format('woff'), /* modern Browsers */
+        url('../../fonts/SF\ Pro\ Display/.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+/*Relway font*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('../../fonts/Raleway/Raleway-Regular.eot');/* IE9 Compat Modes */
+    src: url('../../fonts/Raleway/Raleway-Regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+        url('../../fonts/Raleway/Raleway-Regular.woff2') format('woff2'),/* Modern Browsers */
+        url('../../fonts/Raleway/Raleway-Regular.woff') format('woff'),/* modern Browsers */
+        url('../../fonts/Raleway/Raleway-Regular.ttf') format('truetype');/* Safari, Android, iOS */
+}
+
+/*end font for ltr*/

@@ -1,0 +1,7 @@
+@import '../fonts/fonts';
+/*Font-family*/
+$main-font:'poppins';
+$sub-font:'SFProDisplay-Bold';
+/*Font-size*/
+$largsc-font-size: calc(14px + (14 - 9) * ((100vw - 1024px) / (1920 - 1024)));
+$mdsc-font-size: calc(17px + (17 - 15) * ((100vw - 320px) / (768 - 320)));
