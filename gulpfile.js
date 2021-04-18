@@ -33,7 +33,7 @@ gulp.task('minifyrtlcss', function () {
 });
 //minifying js files
 gulp.task('minifyJs', function () { 
-        return gulp.src(['src/js/jquery-3.3.1.min.js',
+        return gulp.src(['src/js/jquery-3.5.1.min.js',
                          'src/js/vendor/*.js',
                          'src/js/main.js'])
          .pipe(concat('scripts.min.js'))

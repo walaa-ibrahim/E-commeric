@@ -1,4 +1,4 @@
-mixin xxLargScreen{
+@mixin xxLargScreen{
     @media (max-width:1400px){
         @content;
     }

@@ -1,0 +1,36 @@
+@import '../variables/colors-var';
+@import '../direction/ltr-direction';
+@import '../variables/main-vars';
+.navbar-expand-lg {
+    font-family: 'Raleway';
+    border-bottom: 1px solid $sub-color;
+    line-height: 1.84;
+    .navbar-brand{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .navbar-nav{
+        padding:17px 0;
+        .nav-link{
+            font-size: 18px;
+            padding-right: 14px;
+            padding-left: 14px;
+            color: $sub-color;
+            &.active{
+                font-weight: 700;
+                color: $main-color;
+            }
+        }
+    } 
+    .shopping{
+        padding-#{$direc}:34px;
+        &:hover{
+            transform: scale(1.09);
+            color:$sub-color;
+        }
+    }
+    .navbar-toggler{
+        line-height: 1.5;
+        color: $gray-color;
+    }
+}
